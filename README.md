@@ -56,6 +56,7 @@ Train and evaluate different classification models, such as ExtraTreesClassifier
 Optimize model hyperparameters using techniques such as cross-validation and grid search to find the best-performing model.
 Interpret the model results and assess its performance based on the defined problem statement.
 Same steps for Regression modelling.(note: dataset contains more noise and linearity between independent variables so itll perform well only with tree based models)
+
 Model GUI: Using streamlit module, create interactive page with
    (1) task input( Regression or Classification) and 
    (2) create an input field where you can enter each column value except ‘Selling_Price’ for regression model and  except ‘Status’ for classification model. 
